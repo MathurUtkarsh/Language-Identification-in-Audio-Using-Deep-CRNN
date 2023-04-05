@@ -2,15 +2,15 @@
 
 ### **PROBLEM STAEMENT**
 
-In this project we will be doing language identification over six international lanuages i.e English, German, French, Espanol, Chinese and Russian. Here the user need to give recordings of the specific language as input and finnaly the input language will be predicted.
+In this project we will be doing language identification over six international lanuages i.e English, German, French, Espanol, Chinese and Russian. Here the user need to give recordings of the specific language as input and finally the input language will be predicted.
 
 ### **DESCRIPTION OVERVIEW**
 
-Language  recognization is an important task in the field of natural language processing. Here the user will provide speech recordings of a specific language and then using deep learning approaches we will try to predict the spoken input language.
+Language recognization is an important task in the field of natural language processing. Here the user will provide speech recordings of a specific language and then using deep learning approaches we will try to predict the spoken input language.
 
 ### **TECHNOLOGY USE**
 
-Here we will be using  Anaconda Python 3.6 , Keras 2.2.4 using TensorFlow GPU 1.14.0 backend CUDA 10 with CuDNN 10 
+Here we will be using Anaconda Python 3.6, Keras 2.2.4 using TensorFlow GPU 1.14.0 backend CUDA 10 with CuDNN 10. 
 
 ### **INSTALLATION**
 
