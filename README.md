@@ -1,4 +1,8 @@
-# Language Identification in Audio Using Deep CRNN
+# Language Identification Using Deep Convolutional Recurrent Neural Networks
+
+### **Introduction**
+
+This project contains the code for the paper "Language Identification Using Deep Convolutional Recurrent Neural Networks", which will be presented at the 24th International Conference on Neural Information Processing (ICONIP 2017).
 
 ### **PROBLEM STAEMENT**
 
