@@ -4,13 +4,13 @@
 
 This project contains the code for the paper "Language Identification Using Deep Convolutional Recurrent Neural Networks", which will be presented at the 24th International Conference on Neural Information Processing (ICONIP 2017).
 
-## **PROBLEM STAEMENT**
+## PROBLEM STAEMENT
 
-In this project we will be doing language identification over six international lanuages i.e English, German, French, Espanol, Chinese and Russian. Here the user need to give recordings of the specific language as input and finally the input language will be predicted.
+The problem at hand is to develop a language identification system that can accurately predict the language of a given audio recording from among six international languages, namely English, German, French, Spanish, Chinese, and Russian. The system will take audio recordings of the specific language as input from the user and output the predicted language. The challenge lies in designing a robust and efficient system that can accurately identify the language despite variations in dialects, accents, and background noise.
 
 ### **DESCRIPTION OVERVIEW**
 
-Language recognization is an important task in the field of natural language processing. Here the user will provide speech recordings of a specific language and then using deep learning approaches we will try to predict the spoken input language.
+The aim of this project is to create an accurate language identification system for six international languages using deep learning techniques. The system will analyze speech recordings and identify the spoken language based on unique phonetic and acoustic properties. The proposed solution will use a tailored deep convulutional recurrent neural network architecture for speech recognition to perform robustly under varying acoustic conditions. This project aims to provide a practical solution for automated language identification with potential applications in areas such as speech recognition, language translation, and language learning.
 
 ### **TECHNOLOGY USE**
 
