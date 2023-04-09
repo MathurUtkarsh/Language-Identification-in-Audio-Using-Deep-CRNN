@@ -3,7 +3,7 @@ import os
 from flask_cors import CORS, cross_origin
 
 from kerasa.predict2 import predict
-from com_in_ineuron_ai_utils.utils import decodeSound
+from my_utility.utils import decodeSound
 
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
