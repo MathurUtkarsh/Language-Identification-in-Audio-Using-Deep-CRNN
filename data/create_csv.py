@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# This file is used to create csv file that can be used to train machine learning model to identify the language of audio files.
+
 import os
 import argparse
 import fnmatch

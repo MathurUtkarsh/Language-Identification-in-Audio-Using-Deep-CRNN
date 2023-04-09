@@ -1,18 +1,22 @@
-# Language Identification in Audio Using Deep CRNN
+# Language Identification Using Deep Convolutional Recurrent Neural Networks
 
-### **PROBLEM STAEMENT**
+## Introduction
 
-In this project we will be doing language identification over six international lanuages i.e English, German, French, Espanol, Chinese and Russian. Here the user need to give recordings of the specific language as input and finally the input language will be predicted.
+This project contains the code for the paper "Language Identification Using Deep Convolutional Recurrent Neural Networks", which will be presented at the 24th International Conference on Neural Information Processing (ICONIP 2017).
 
-### **DESCRIPTION OVERVIEW**
+## Problem Statement
 
-Language recognization is an important task in the field of natural language processing. Here the user will provide speech recordings of a specific language and then using deep learning approaches we will try to predict the spoken input language.
+The problem at hand is to develop a language identification system that can accurately predict the language of a given audio recording from among six international languages, namely English, German, French, Spanish, Chinese, and Russian. The system will take audio recordings of the specific language as input from the user and output the predicted language. The challenge lies in designing a robust and efficient system that can accurately identify the language despite variations in dialects, accents, and background noise.
 
-### **TECHNOLOGY USE**
+## Description Overview
+
+The aim of this project is to create an accurate language identification system for six international languages using deep learning techniques. The system will analyze speech recordings and identify the spoken language based on unique phonetic and acoustic properties. The proposed solution will use a tailored deep convulutional recurrent neural network architecture for speech recognition to perform robustly under varying acoustic conditions. This project aims to provide a practical solution for automated language identification with potential applications in areas such as speech recognition, language translation, and language learning.
+
+## Technology Use
 
 Here we will be using Anaconda Python 3.6, Keras 2.2.4 using TensorFlow GPU 1.14.0 backend CUDA 10 with CuDNN 10. 
 
-### **INSTALLATION**
+## Installation
 
 Installation of this project is pretty easy. Please do follow the following steps to create a virtual environment and then install the necessary packages in the following environment.
 
@@ -33,7 +37,7 @@ Installation of this project is pretty easy. Please do follow the following step
 3. Install the necessary packages from requirements.txt file using the command         
 pip install -r requirements.txt
 
-### **WORKFLOW DIAGRAM**
+## WorkFlow Diagram
 
 ![Picture1](https://user-images.githubusercontent.com/78642104/202015195-c0d8b584-0bcc-43c5-8728-faa51118e50e.jpg)
 
@@ -66,11 +70,11 @@ This file is used to do the prediction of the given user input with two other ar
 
 This file is the flask server file and entry point of application.
 
-### **CONCLUSION**
+## Conclusion
 
 In this project we have successfully built a language identification which can classify and identify six internatonal languages.
 
-### **COMPARISION**
+## Comparision
 
 Here we can do a lot of improvements. We can go with pre trained models like BERT , GPT2 etc to increase the accuracy. We can also increase the size of the training data.
 
