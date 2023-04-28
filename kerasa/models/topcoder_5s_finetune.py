@@ -44,7 +44,7 @@ def create_model(input_shape, config, is_training=True):
     for ref_layer in ref_model.layers[:-2]:
         layer = model.get_layer(ref_layer.name)
         if layer:
-            print ref_layer.name
+            print (ref_layer.name)
             layer.set_weights(ref_layer.get_weights())
             layer.trainable = False
 
