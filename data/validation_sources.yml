@@ -2,19 +2,22 @@ english:
   users:
     - msnbcleanforward
   playlists:
-    -
+    -                     # example playlist ID
+
 german:
   users:
     - tagesschau
   playlists:
-    -
+    -                     # example playlist ID
+
 french:
   users:
     - tv5monde
   playlists:
-    -
+    -                     # example playlist ID
+
 spanish:
   users:
     - elpaiscom
   playlists:
-    -
+    -                     # example playlist ID
