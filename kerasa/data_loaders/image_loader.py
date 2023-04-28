@@ -1,12 +1,11 @@
 import numpy as np
-from scipy.misc import imread
+import imageio
 from .csv_loader import CSVLoader
 
 class ImageLoader(CSVLoader):
 
     def process_file(self, file_path):
-
-        image = imread(file_path, mode=self.config["color_mode"])
+        image = imageio.imread(file_path, as_gray=(self.config["color_mode"] == 'grayscale'))
 
         # Image shape should be (cols, rows, channels)
         if len(image.shape) == 2:
