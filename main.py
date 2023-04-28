@@ -11,6 +11,7 @@ os.putenv('LC_ALL', 'en_US.UTF-8')
 app = Flask(__name__)
 CORS(app)
 
+# This is different from clientApp because it doesn't have any frontend interface and it have code for exception error.
 
 @app.route("/predict", methods=['POST'])
 def predictRoute():
@@ -18,6 +19,7 @@ def predictRoute():
         image = request.json['sound']
         decodeSound(image, "audio123.wav")
         result = predict()
+
         #print(result)
         #print(type(result))
         #return jsonify(result)
@@ -31,10 +33,10 @@ def predictRoute():
         print(e)
         result = "Invalid input"
 
-    return {"Result" : result}
+    return {"Result": result}
 
 
-#port = int(os.getenv("PORT"))
+# port = int(os.getenv("PORT"))
 
 if __name__ == "__main__":
     host = '0.0.0.0'
