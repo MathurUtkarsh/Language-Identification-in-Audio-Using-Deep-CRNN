@@ -4,7 +4,7 @@ from flask import Response
 import os
 from flask_cors import CORS
 from kerasa.predict2 import predict
-from com_in_ineuron_ai_utils.utils import decodeSound
+from my_utilities.decode import decodeSound
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
 
