@@ -7,12 +7,12 @@ learning_rate: 0.001
 num_epochs: 50
 
 data_loader: "ImageLoader"
-color_mode: "L"  # L = bw or RGB
+color_mode: "L"  # L = Black and White or RGB
 input_shape: [129, 500, 1]
 
 model: "topcoder_crnn_finetune" # _finetune"
 
-segment_length: 10  # number of seconds each spectogram represents
+segment_length: 10  # number of seconds each spectrogram represents
 pixel_per_second: 50
 
 label_names: ["EN", "DE", "FR", "ES"]
