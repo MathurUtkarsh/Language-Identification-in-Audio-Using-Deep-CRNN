@@ -9,10 +9,8 @@ import sys
 lib_dir = os.path.join(os.getcwd(), "../kerasa/data_loaders")
 sys.path.append(lib_dir)
 
-from SpectrogramGenerator import SpectrogramGenerator
-from NoisyBackgroundSpectrogramGenerator import NoisyBackgroundSpectrogramGenerator
-from VinylBackgroundSpectrogramGenerator import VinylBackgroundSpectrogramGenerator
-from MusicBackgroundSpectrogramGenerator import MusicBackgroundSpectrogramGenerator
+from kerasa.data_loaders.SpectrogramGenerator import SpectrogramGenerator
+
 from create_csv import create_csv
 
 def directory_to_spectrograms(args):
