@@ -20,7 +20,7 @@ Here we will be using Anaconda Python 3.6, Keras 2.2.4 using TensorFlow GPU 1.14
 
 Installation of this project is pretty easy. Please do follow the following steps to create a virtual environment and then install the necessary packages in the following environment.
 
-**In Pycharm it’s easy **
+**In Pycharm it’s easy**
 
 1. Create a new project.
 2. Navigate to the directory of the project
