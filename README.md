@@ -70,6 +70,11 @@ This file is used to do the prediction of the given user input with two other ar
 
 This file is the flask server file and entry point of application.
 
+**6. spectogram generated
+
+![specto](https://user-images.githubusercontent.com/78642104/235299484-9f36b536-7b24-443c-b9df-b658849fcbfa.png)
+
+
 ## Conclusion
 
 In this project we have successfully built a language identification which can classify and identify six internatonal languages.
