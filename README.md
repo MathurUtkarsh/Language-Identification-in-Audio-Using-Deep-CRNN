@@ -42,7 +42,6 @@ pip install -r requirements.txt
 ![Picture1](https://user-images.githubusercontent.com/78642104/202015195-c0d8b584-0bcc-43c5-8728-faa51118e50e.jpg)
 
 
-![Picture2](https://user-images.githubusercontent.com/78642104/202015270-f4bd6edf-db42-40da-a7bc-9f21c7a31ae5.png)
 
 This above picture is of the project directory if we open the project folder using Pycharm. 
 
@@ -70,7 +69,7 @@ This file is used to do the prediction of the given user input with two other ar
 
 This file is the flask server file and entry point of application.
 
-**6. spectogram generated
+**6. spectogram generated**
 
 ![specto](https://user-images.githubusercontent.com/78642104/235299484-9f36b536-7b24-443c-b9df-b658849fcbfa.png)
 
